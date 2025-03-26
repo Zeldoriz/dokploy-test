@@ -6,7 +6,8 @@ export default defineConfig({
   plugins: [react()],
   preview: {
     port: 8080,
-    strictPort: true
+    strictPort: true,
+    allowedHosts: ['testdokploy-test-dokploy-dsyulp-432055-154-26-139-222.traefik.me']
   },
   server: {
     port: 8080,
