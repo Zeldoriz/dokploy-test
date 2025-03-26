@@ -5,14 +5,14 @@ export default defineConfig({
   base: '/',
   plugins: [react()],
   preview: {
-    port: 8080,
+    port: 3000,
     strictPort: true,
     allowedHosts: ['testdokploy-test-dokploy-dsyulp-432055-154-26-139-222.traefik.me']
   },
   server: {
-    port: 8080,
+    port: 3000,
     strictPort: true,
     host: true,
-    origin: 'http://0.0.0.0:8080'
+    origin: 'http://0.0.0.0:3000'
   }
 });
